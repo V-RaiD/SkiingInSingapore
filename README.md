@@ -2,13 +2,13 @@
 ## Instructions To Run SkiingInSingapore
 
 - Build
-  `mvn package`
+  - `mvn package`
 
-- Use script builder.sh to build if you don't want to use mvn but make sure mvn is installed on the system and you are inside the SkiingInSingapore folder
+- Use script `builder.sh` to build if you don't want to use *mvn* but make sure *mvn* is installed on the system and you are inside the `SkiingInSingapore` folder
 
 - Build and Run
-  `chmod +x builder.sh`
-  `builder.sh <filename> totalRows totalColumn`
+  - `chmod +x builder.sh`
+  - `builder.sh <filename> totalRows totalColumn`
   *rows and columns need to be same it can only be solved for square matrix, for ease of reading total rows/columns has not been taken from file so the file format should be without first line with row/column*
 
 - Method Used to solve
