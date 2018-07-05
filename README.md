@@ -23,5 +23,6 @@
 - Solution Observed
   - MaxHill - E : 1422 X : 693 Y : 603
   - MinHill - E : 0 X : 689 Y : 607
+  - `E : elevation`, `X : row`, `Y : column`
   - Max Route Length - 15
   - Max Elevation - 1422
