@@ -96,7 +96,8 @@ class SkiResort {
 
   private MinimaWeight findLongRouteAndMinima(SkiHill seedHill) {
     if(this.isSkiPossible(seedHill)) {
-      
+      SkiHill[] skiiableHillList = this.getSkiiableHills(seedHill);
+
     } else {
       return new MinimaWeight(seedHill, 1);
     }
