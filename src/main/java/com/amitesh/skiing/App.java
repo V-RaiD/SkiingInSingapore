@@ -1,7 +1,7 @@
 package com.amitesh.skiing;
 
 //importing resort class
-com.amitesh.skiing.SkiResort;
+import com.amitesh.skiing.SkiResort;
 
 public class App {
     public static void main( String[] args ) {
