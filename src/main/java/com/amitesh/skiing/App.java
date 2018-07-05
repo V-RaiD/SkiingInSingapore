@@ -1,9 +1,11 @@
 package com.amitesh.skiing;
 
-public class App
-{
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
+//importing resort class
+com.amitesh.skiing.SkiResort;
+
+public class App {
+    public static void main( String[] args ) {
+      SkiResort skiResort = new SkiResort(args[0], args[1], args[2]);
+      System.out.println(skiResort.toString());
     }
 }
