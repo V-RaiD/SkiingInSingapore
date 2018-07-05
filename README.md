@@ -9,7 +9,7 @@
 - Build and Run
   `chmod +x builder.sh`
   `builder.sh <filename> totalRows totalColumn`
-  *rows and columns need to be same it can only be solved for square matrix*
+  *rows and columns need to be same it can only be solved for square matrix, for ease of reading total rows/columns has not been taken from file so the file format should be without first line with row/column*
 
 - Method Used to solve
   - SkiResort initialises the Map and a List of Hill tops from which Navigation to other hills is possible,
