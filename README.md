@@ -1,5 +1,5 @@
 # Skiing In Singapore
-## Instructions To Run parking_lot
+## Instructions To Run SkiingInSingapore
 
 - Build
   `mvn package`
