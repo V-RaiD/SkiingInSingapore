@@ -1,5 +1,7 @@
 package com.amitesh.skiing;
 
+import com.amitesh.skiing.SkiHill;
+
 class MinimaWeight {
   SkiHill minHill;
   int length;
